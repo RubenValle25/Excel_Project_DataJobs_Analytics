@@ -9,7 +9,7 @@ This data jobs salary dashboard was created to help investigate salaries for des
 The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
 
 **Dashboard File**
-My final dashboard is in [Dashboard file](1_Salary_Dashboard.xlsx)
+My final dashboard is in [Dashboard file](Project_1-Dashboard)
 
 ## 2. Salary Analysis
 <img width="862" height="452" alt="2_Project_Analysis_Chart4" src="https://github.com/user-attachments/assets/e0410f39-7290-4dc9-9d2d-00d1a1806075" />
