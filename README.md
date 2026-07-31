@@ -34,5 +34,5 @@ What’s the pay for the top 10 skills?
 
 **Analysis File**
 
-See final analysis:  [Analysis file](Project_2Analysis/1_Project_Analysis.xlsx)
+See final analysis:  [Analysis file](Project_2-Analysis/1_Project_Analysis.xlsx)
 
