@@ -16,7 +16,6 @@ The following Excel skills were utilized for analysis:
 
 -❎ Data Validation
 
-**Dashboard Build**
 ## Charts
 
 ### Data Science Job Salaries - Bar Chart
