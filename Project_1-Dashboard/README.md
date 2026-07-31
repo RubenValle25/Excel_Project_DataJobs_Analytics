@@ -8,11 +8,15 @@ The dataset used for this project contains real-world data science job informati
  . Locations
  . Skills
  
+  <img width="800" height="333" alt="1_Salary_Dashboard_Final_Dashboard" src="https://github.com/user-attachments/assets/19b98363-3063-44c0-a9d5-ea185d542191" />
+  
 **Excel Skills Used**
 
 The following Excel skills were utilized for analysis:
  . 📉 Charts
+ 
  . 🧮 Formulas and Functions
+
  . ❎ Data Validation
 
 **Dashboard Build**
@@ -47,15 +51,17 @@ IF(
 )
 )
 ​```
+
  **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
  **Array Formula:** Utilizes MEDIAN() function with nested IF() statement to analyze an array.
  **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
  **Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 ### Count of Job Schedule Type
-``` 
+
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
-​```
+​
+
  **Unique List Generation:** This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
  **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
