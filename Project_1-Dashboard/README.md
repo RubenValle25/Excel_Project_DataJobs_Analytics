@@ -76,7 +76,6 @@ IF(
  
  **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
- Dashboard Implementation:
 
 ### Data Validation
  **Filtered List**
