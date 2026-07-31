@@ -8,7 +8,7 @@ The dataset used for this project contains real-world data science job informati
   
 **Excel Skills Used**
 
->The following Excel skills were utilized for analysis: 
+The following Excel skills were utilized for analysis: 
 
 -📉 Charts
  
@@ -33,6 +33,7 @@ The dataset used for this project contains real-world data science job informati
  
 ### Country Median Salaries - Map Chart
 <img width="564" height="395" alt="1_Salary_Dashboard_Chart2" src="https://github.com/user-attachments/assets/f07dc0a1-6d73-4780-b937-b76981df0259" />
+
  **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
  
  **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -80,7 +81,8 @@ IF(
 
 ### Data Validation
  **Filtered List**
-<img width="1148" height="1214" alt="1_Salary_Dashboard_Job_Title" src="https://github.com/user-attachments/assets/fd6d2ec6-80b8-404c-b9bf-66045eae4432" />
+<img width="624" height="602" alt="1_Salary_Dashboard_Data_Validation" src="https://github.com/user-attachments/assets/4a8acace-c3d2-4894-8c5d-f1ff46d17e28" />
+
 
  **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
  
