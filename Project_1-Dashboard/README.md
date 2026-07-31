@@ -12,7 +12,8 @@ The dataset used for this project contains real-world data science job informati
   
 **Excel Skills Used**
 
-The following Excel skills were utilized for analysis:
+The following Excel skills were utilized for analysis: 
+
  . 📉 Charts
  
  . 🧮 Formulas and Functions
@@ -41,6 +42,7 @@ The following Excel skills were utilized for analysis:
  
 ### Median Salary by Job Titles
 ```
+{
 =MEDIAN(
 IF(
     (jobs[job_title_short]=A2)*
@@ -50,6 +52,7 @@ IF(
     jobs[salary_year_avg]
 )
 )
+}
 ​```
 
  **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
