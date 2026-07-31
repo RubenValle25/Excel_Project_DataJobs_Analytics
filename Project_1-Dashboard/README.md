@@ -2,21 +2,13 @@
 
 **Data Jobs Dataset**
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset provides a foundation for analyzing data using Excel. It includes detailed information on:
-
--Job titles
-
--Salaries
-
--Locations
-
--Skills
+The dataset used for this project contains real-world data science job information from 2023. The dataset provides a foundation for analyzing data using Excel. It includes detailed information on: **Job titles**, **Salaries**, **Locations**, **skills**
  
   <img width="800" height="333" alt="1_Salary_Dashboard_Final_Dashboard" src="https://github.com/user-attachments/assets/19b98363-3063-44c0-a9d5-ea185d542191" />
   
 **Excel Skills Used**
 
-The following Excel skills were utilized for analysis: 
+>The following Excel skills were utilized for analysis: 
 
 -📉 Charts
  
