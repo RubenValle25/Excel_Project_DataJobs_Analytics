@@ -3,10 +3,11 @@
 **Data Jobs Dataset**
 
 The dataset used for this project contains real-world data science job information from 2023. The dataset provides a foundation for analyzing data using Excel. It includes detailed information on:
- . Job titles
- . Salaries
- . Locations
- . Skills
+
+-Job titles
+-Salaries
+-Locations
+-Skills
  
   <img width="800" height="333" alt="1_Salary_Dashboard_Final_Dashboard" src="https://github.com/user-attachments/assets/19b98363-3063-44c0-a9d5-ea185d542191" />
   
@@ -14,16 +15,17 @@ The dataset used for this project contains real-world data science job informati
 
 The following Excel skills were utilized for analysis: 
 
- . 📉 Charts
+-📉 Charts
  
- . 🧮 Formulas and Functions
+-🧮 Formulas and Functions
 
- . ❎ Data Validation
+-❎ Data Validation
 
 **Dashboard Build**
 ## Charts
 
 ### Data Science Job Salaries - Bar Chart
+<img width="564" height="395" alt="1_Salary_Dashboard_Chart2" src="https://github.com/user-attachments/assets/f07dc0a1-6d73-4780-b937-b76981df0259" />
 
  **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
  **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -41,7 +43,7 @@ The following Excel skills were utilized for analysis:
 ## Formulas and Functions
  
 ### Median Salary by Job Titles
-`
+```
 =MEDIAN(
 IF(
     (jobs[job_title_short]=A2)*
@@ -51,7 +53,7 @@ IF(
     jobs[salary_year_avg]
 )
 )
-​`
+```
 
  **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
  **Array Formula:** Utilizes MEDIAN() function with nested IF() statement to analyze an array.
@@ -60,14 +62,14 @@ IF(
 
 ### Count of Job Schedule Type
 
+```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
-​
+```
 
  **Unique List Generation:** This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.
  **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
  Dashboard Implementation:
-<img src="/0_Resources/Images/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
 
 ### Data Validation
  **Filtered List**
