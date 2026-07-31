@@ -10,11 +10,11 @@ The dataset used for this project contains real-world data science job informati
 
 The following Excel skills were utilized for analysis: 
 
--📉 Charts
+- 📉 Charts
  
--🧮 Formulas and Functions
+- 🧮 Formulas and Functions
 
--❎ Data Validation
+- ❎ Data Validation
 
 ## Charts
 
