@@ -1,6 +1,6 @@
-# 📊 Data Science Job Market Analysis (Excel)
+# Data Science Job Market Analysis (Excel)
 
-## 📌 Questions Analyzed
+## Questions Analyzed
 
 This project explores the 2023 data science job market by answering the following questions:
 
@@ -9,9 +9,8 @@ This project explores the 2023 data science job market by answering the followin
 - 🛠️ What are the most in-demand skills for data professionals?
 - 💰 What is the median salary for the top 10 skills?
 
----
 
-# 🧰 Excel Skills Used
+# Excel Skills Used
 
 This project was completed entirely in Microsoft Excel using the following tools:
 
@@ -21,26 +20,12 @@ This project was completed entirely in Microsoft Excel using the following tools
 - Power Pivot
 - DAX (Data Analysis Expressions)
 
----
 
-# 📂 Dataset
-
-The dataset contains real-world data science job postings from **2023**.
-
-It includes information such as:
-
-- Job titles
-- Annual salaries
-- Job locations
-- Required skills
-
----
-
-# 📈 Analysis
+# Analysis
 
 ## 1. Do More Skills Lead to Higher Salaries?
 
-### 🛠️ Excel Skill Used
+### Excel Skill Used
 **Power Query (ETL)**
 
 ### Extract
@@ -59,25 +44,30 @@ The data was cleaned by:
 - Cleaning text values
 - Removing extra whitespace
 
+<img width="244" height="312" alt="2_Project_Analysis_Screenshot1" src="https://github.com/user-attachments/assets/8a67357c-c04e-4787-90ad-eb53ac71500f" />
+
+
 ### Load
 
 Both transformed queries were loaded into Excel for analysis.
 
-### 📊 Insights
+<img width="1916" height="649" alt="2_Project_Analysis_Screenshot3" src="https://github.com/user-attachments/assets/dfd64e77-5715-4608-8ece-216e5cf48e87" />
+
+### Insights
 
 - There is a positive relationship between the number of requested skills and the median salary.
 - Roles such as **Senior Data Engineer** and **Data Scientist** require more skills and offer significantly higher salaries.
 - Positions requiring fewer specialized skills, such as **Business Analyst**, generally have lower salaries.
 
-### 💡 Key Takeaway
+### Key Takeaway
 
 Developing multiple technical skills can significantly improve earning potential in the data industry.
 
 ---
 
-# 🌎 2. What Are the Salaries for Data Jobs in Different Regions?
+# 2. What Are the Salaries for Data Jobs in Different Regions?
 
-### 🛠️ Excel Skills Used
+### Excel Skills Used
 
 - PivotTables
 - DAX
@@ -110,20 +100,20 @@ Median salary for United States jobs:
 )
 ```
 
-### 📊 Insights
+### Insights
 
 - Senior Data Engineers and Data Scientists have the highest median salaries both inside and outside the United States.
 - The salary gap between US and international positions is largest for highly technical roles.
 
-### 💡 Key Takeaway
+### Key Takeaway
 
 Geographic location has a significant impact on salary, making location an important consideration during job searches and salary negotiations.
 
 ---
 
-# 🛠️ 3. What Are the Top Skills of Data Professionals?
+# 3. What Are the Top Skills of Data Professionals?
 
-### 🛠️ Excel Skill Used
+### Excel Skill Used
 
 **Power Pivot**
 
@@ -138,20 +128,22 @@ using the **job_id** field.
 
 Power Pivot was then used to build relationships and create measures.
 
-### 📊 Insights
+<img width="1788" height="1264" alt="2_Project_Analysis_Screenshot5" src="https://github.com/user-attachments/assets/e4a68e81-b6a9-4624-abfd-5818c2669324" />
+
+### Insights
 
 - SQL and Python are the most requested technical skills.
 - Cloud technologies such as AWS and Azure are becoming increasingly valuable.
 
-### 💡 Key Takeaway
+### Key Takeaway
 
 Mastering SQL, Python, and cloud technologies provides a strong competitive advantage in today's data job market.
 
 ---
 
-# 💰 4. What Is the Pay for the Top 10 Skills?
+# 4. What Is the Pay for the Top 10 Skills?
 
-### 🛠️ Excel Skill Used
+### Excel Skill Used
 
 **Pivot Charts**
 
@@ -169,18 +161,21 @@ Formatting improvements included:
 - Diamond markers
 - Simplified chart styling
 
-### 📊 Insights
+<img width="862" height="452" alt="2_Project_Analysis_Chart4" src="https://github.com/user-attachments/assets/5d38618b-9b87-4d7c-9edf-f7fc7d325772" />
+
+
+### Insights
 
 - Python, SQL, and Oracle are associated with the highest median salaries.
 - Microsoft Office skills (Word and PowerPoint) have the lowest salary impact and demand among technical positions.
 
-### 💡 Key Takeaway
+### Key Takeaway
 
 Investing time in learning technical programming and database skills provides substantially higher earning potential than general productivity software.
 
----
 
-# 📌 Conclusion
+
+# Conclusion
 
 This project demonstrates how Excel can be used as a powerful data analysis tool to explore real-world labor market trends.
 
@@ -192,24 +187,3 @@ Using **Power Query**, **Power Pivot**, **PivotTables**, **DAX**, and **Pivot Ch
 - Salary trends across the most in-demand technologies
 
 The analysis highlights that professionals who develop specialized technical skills—particularly **Python**, **SQL**, and **cloud technologies**—are more likely to qualify for higher-paying opportunities in the data industry.
-
----
-
-# 🚀 Tools Used
-
-- Microsoft Excel
-- Power Query
-- Power Pivot
-- PivotTables
-- Pivot Charts
-- DAX
-
----
-
-# 📁 Project Files
-
-- 📄 Excel Workbook
-- 📊 Dashboard
-- 📈 Pivot Tables
-- 📉 Charts
-- 📂 Dataset
