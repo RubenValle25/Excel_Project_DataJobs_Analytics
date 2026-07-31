@@ -81,6 +81,7 @@ IF(
 
 ### Data Validation
  **Filtered List**
+ 
 <img width="624" height="602" alt="1_Salary_Dashboard_Data_Validation" src="https://github.com/user-attachments/assets/4a8acace-c3d2-4894-8c5d-f1ff46d17e28" />
 
 
@@ -95,4 +96,4 @@ IF(
 
 ### Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
+I created this dashboard to showcase insights into salary trends across various data-related job titles, this dashboard allows compare jobs to make informed decisions about career paths. Exploring the functionalities to understand how location, skills and job type can influence salaries.
