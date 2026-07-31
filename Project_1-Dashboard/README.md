@@ -41,8 +41,7 @@ The following Excel skills were utilized for analysis:
 ## Formulas and Functions
  
 ### Median Salary by Job Titles
-```
-{
+`
 =MEDIAN(
 IF(
     (jobs[job_title_short]=A2)*
@@ -52,8 +51,7 @@ IF(
     jobs[salary_year_avg]
 )
 )
-}
-​```
+​`
 
  **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
  **Array Formula:** Utilizes MEDIAN() function with nested IF() statement to analyze an array.
